@@ -8,3 +8,5 @@ Note, however, that **some NVIDIA Optimus GPUs will go to 100% usage constantly 
 MPC-HC profile mostly based on [Ceremony's work at doom9](https://forum.doom9.org/showthread.php?t=170937).
 
 Requires [NVIDIAProfileInspector by Orbmu2k](https://github.com/Orbmu2k/nvidiaProfileInspector).
+
+To set-up, **just unzip this in your MPC-HC folder and maybe check the scripts to see if you need to make any adjustments or you want silent profile importing**.
