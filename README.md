@@ -12,3 +12,5 @@ Requires [NVIDIAProfileInspector by Orbmu2k](https://github.com/Orbmu2k/nvidiaPr
 To set-up, **just unzip this in your MPC-HC folder and maybe check the scripts to see if you need to make any adjustments or you want silent profile importing**.
 
 Also, **if you don't understand why you would need to use your dedicated GPU just to scale and watch videos, you probably don't need this.**
+
+A last note is that **most NVIDIA laptop GPUs DO NOT SUPPORT HEVC HARDWARE DECODING**, which means that **using this script to run MPC-HC with your dGPU might actually be slower than running it with your iGPU!** If this happens, just revert to using iGPU + DXVA decoding.
